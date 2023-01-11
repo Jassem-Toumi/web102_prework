@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color:white;
 }
 
 #tentacles {
@@ -21,16 +21,25 @@ body {
 
 .stats-container {
     display: flex;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
-    border-radius: 7px;
+    /* background-color: #a8b0bc; */
+    background: linear-gradient(38deg, rgba(255,255,255,1) 0%, rgba(188,224,225,1) 73%, rgba(115,191,192,1) 100%);
+    ;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    color: black;
+    border-radius: 7px;
+
 }
+
+
 
 #num-contributions, #total-raised, #num-games {
     font-size: 50px;
@@ -50,7 +59,7 @@ body {
 
 .game-card {
     background-color: #FFFFFF;
-    padding: 1%;
+    background: linear-gradient(38deg, rgba(255,255,255,1) 0%, rgba(184,223,221,1) 74%, rgba(115,192,189,1) 95%, rgba(46,161,156,1) 100%);    padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
@@ -73,3 +82,64 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+/* ====== Bonus feature ====== */
+form {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 2% auto 2% 25%;
+  }
+  
+  label {
+    margin-right: 0.5em;
+  }
+  
+  input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5em;
+    width: 50%;
+  }
+  
+
+  .emptyContainer{
+    display: flex;
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .emptyContainer > h3{
+    text-align: center;
+  }
+
+  #scrollTopButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #scrollTopButton.visible {
+    /* Make the button visible when it's supposed to be shown */
+    visibility: visible;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
+  
+  #scrollTopButton.hidden {
+    /* Make the button invisible when it's supposed to be hidden */
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+  }

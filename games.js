@@ -6,7 +6,8 @@ const games = ` [
     "pledged": 1572,
     "goal": 10000,
     "backers": 9,
-    "img": "./assets/heroes_of_mythic_americas.png"
+    "img": "/assets/heroes_of_mythic_americas.png"
+    
   },
   {
     "name": "Cube Monster",
