@@ -21,12 +21,15 @@ The following **optional** features are implemented:
 * [ ] Changed the background colors of the stats cards and the games cards to a more appealing mix of colors using CSS color grading. 
 * [ ] A scoll up button with smooth scorlling enforced. 
 
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://imgur.com/a/s479cT5' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<!-- <img src='https://imgur.com/a/s479cT5' title='Video Walkthrough' width='' alt='Video Walkthrough' /> -->
+<a href="https://imgur.com/a/s479cT5" alt='Video Walkthrough'>
+Click here to see walkthrough video
+</a>
+
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with [Kap]
